@@ -81,6 +81,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Windsurf Cascade Skills | Windsurf | `global` | `SKILL.md` | A | [Docs](https://docs.windsurf.com/windsurf/cascade/skills) |
 | Salesforce Agentforce Skills | Salesforce | `global` | agentforce-skills, abilities | A | [Docs](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/mdexperts.html) |
 | MiniMax Skills | MiniMax | `mainland-china / international` | `SKILL.md` | A | [Repo](https://github.com/MiniMax-AI/skills) |
+| Hermes Tweet | Xquik | `global` | Hermes Agent plugin, `SKILL.md`, Claude Code plugin manifest | B | [Repo](https://github.com/Xquik-dev/hermes-tweet) |
 | Huawei AgentArts Skill | Huawei Cloud | `mainland-china` | platform-skill | A | [Docs](https://www.huaweicloud.com/product/agentarts.html) |
 | Coze Skills | Coze | `mainland-china / international` | platform-skill | B | [Docs](https://www.coze.cn/overview) |
 | DiDi Skills | DiDi | `mainland-china` | mcp-backed-skill | B | [Docs](https://mcp.didichuxing.com/claw) |
