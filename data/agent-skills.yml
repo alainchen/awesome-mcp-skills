@@ -74,6 +74,21 @@
   last_checked: 2026-05-19
   notes: Official MiniMax skills repository; MiniMax API docs distinguish international and mainland China hosts.
 
+- name: Hermes Tweet
+  organization: Xquik
+  service_scope: global
+  category: platform-skills
+  skill_format:
+    - Hermes Agent plugin
+    - SKILL.md
+    - Claude Code plugin manifest
+  official_links:
+    - https://github.com/Xquik-dev/hermes-tweet
+    - https://pypi.org/project/hermes-tweet/
+  evidence_level: B
+  last_checked: 2026-06-14
+  notes: Official Xquik-maintained Hermes Agent plugin for X/Twitter research, monitoring, audit workflows, and approval-gated account actions.
+
 - name: Huawei AgentArts Skill
   organization: Huawei Cloud
   service_scope: mainland-china
