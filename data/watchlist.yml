@@ -27,3 +27,9 @@
   status: unverified
   reason: MCP support is referenced by broader ecosystem docs, but official JetBrains MCP/skill docs need verification.
   last_checked: 2026-05-20
+
+- name: Tree Ring Memory
+  service_scope: global
+  status: unverified
+  reason: First-party project publishes a portable SKILL.md-style agent memory package, but it is not an official platform-backed MCP server or skill ecosystem.
+  last_checked: 2026-07-07
