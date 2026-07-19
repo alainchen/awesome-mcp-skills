@@ -317,3 +317,16 @@
   evidence_level: A
   last_checked: 2026-05-20
   notes: Official WeChat Read Skill connects an AI assistant to a user's reading records, bookshelf, reading stats, notes, highlights, book search, and recommendations through an API key.
+
+- name: Xquik Skill
+  organization: Xquik
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/x-twitter-scraper
+    - https://docs.xquik.com
+  evidence_level: A
+  last_checked: 2026-07-19
+  notes: Official Xquik skill covers setup, REST API guidance, MCP setup, webhooks, and X data workflows.

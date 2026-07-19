@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "generate:readme": "node scripts/generate-readme.mjs",
+    "generate:readme:check": "node scripts/generate-readme.mjs --check",
     "validate:data": "node scripts/validate-data.mjs",
-    "check": "npm run validate:data && npm run generate:readme -- --check"
+    "test": "node --test",
+    "check": "npm test && npm run validate:data && npm run generate:readme:check"
   }
 }

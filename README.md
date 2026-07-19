@@ -70,6 +70,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Shopify MCP Servers | Shopify | `global` | commerce, shopping, api development, hosted server, local server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
 | Postman Official MCP Server List | Postman | `global` | official catalog, api development | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | remote server, observability, issue triage, monitoring | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
+| Xquik MCP | Xquik | `global` | remote server, api exploration, social data | A | [Docs](https://docs.xquik.com/mcp/overview) |
 
 ## Official Agent Skills And Customization
 
@@ -97,6 +98,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Warp Agent Rules | Warp | `global` | AGENTS.md, WARP.md, global-rules, project-rules | A | [Docs](https://docs.warp.dev/agent-platform/capabilities/rules) |
 | Zed Agent Rules | Zed | `global` | .rules, AGENTS.md, CLAUDE.md, GEMINI.md, rules-library | A | [Docs](https://zed.dev/docs/ai/rules) |
 | WeChat Read Skill | Tencent / WeChat Read | `mainland-china` | downloadable-skill-zip, api-key | A | [Docs](https://weread.qq.com/r/weread-skills) |
+| Xquik Skill | Xquik | `global` | `SKILL.md` | A | [Repo](https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/x-twitter-scraper) |
 
 ## Data
 
