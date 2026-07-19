@@ -70,6 +70,7 @@
 | Shopify MCP Servers | Shopify | `global` | 商业, 购物, API 开发, 托管 Server, 本地 Server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
 | Postman Official MCP Server List | Postman | `global` | 官方目录, API 开发 | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | 远程 Server, 可观测性, 问题排查, 监控 | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
+| Xquik MCP | Xquik | `global` | 远程 Server, API 探索, 社交数据 | A | [Docs](https://docs.xquik.com/mcp/overview) |
 
 ## 官方 Agent Skills 与自定义能力
 
@@ -97,6 +98,7 @@
 | Warp Agent Rules | Warp | `global` | AGENTS.md, WARP.md, global-rules, project-rules | A | [Docs](https://docs.warp.dev/agent-platform/capabilities/rules) |
 | Zed Agent Rules | Zed | `global` | .rules, AGENTS.md, CLAUDE.md, GEMINI.md, rules-library | A | [Docs](https://zed.dev/docs/ai/rules) |
 | WeChat Read Skill | Tencent / WeChat Read | `mainland-china` | downloadable-skill-zip, api-key | A | [Docs](https://weread.qq.com/r/weread-skills) |
+| Xquik Skill | Xquik | `global` | `SKILL.md` | A | [Repo](https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/x-twitter-scraper) |
 
 ## 数据
 

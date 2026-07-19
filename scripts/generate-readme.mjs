@@ -209,6 +209,8 @@ function zhRole(role) {
   const map = {
     "remote-server": "远程 Server",
     "local-server": "本地 Server",
+    "api-exploration": "API 探索",
+    "social-data": "社交数据",
     registry: "注册表",
     "client-integration": "客户端集成",
     "managed-remote-servers": "托管远程 Server",

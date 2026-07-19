@@ -703,3 +703,25 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: Xquik MCP
+  organization: Xquik
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - api-exploration
+    - social-data
+  protocols:
+    - remote-mcp
+  official_links:
+    - https://docs.xquik.com/mcp/overview
+    - https://github.com/Xquik-dev/x-twitter-scraper/blob/master/server.json
+    - https://github.com/Xquik-dev/x-twitter-scraper
+  evidence_level: A
+  risk_tags:
+    - api
+    - third-party-apps
+    - write-actions
+  last_checked: 2026-07-19
+  notes: Official Xquik docs and repository describe the remote MCP server for X data workflows.

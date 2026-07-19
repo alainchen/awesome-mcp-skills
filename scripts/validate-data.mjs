@@ -1,4 +1,5 @@
 import { readEntries } from "./lib/simple-yaml.mjs";
+import { duplicateNameErrors } from "./lib/validation.mjs";
 
 const files = [
   "data/official-mcp-servers.yml",
@@ -24,6 +25,7 @@ for (const file of files) {
   if (!entries.length) errors.push(`${file}: expected at least one entry`);
 
   entries.forEach((entry, index) => validateEntry(file, entry, index + 1));
+  errors.push(...duplicateNameErrors(file, entries));
 }
 
 if (errors.length) {
