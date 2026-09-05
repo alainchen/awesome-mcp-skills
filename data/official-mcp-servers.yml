@@ -519,6 +519,33 @@
   last_checked: 2026-05-20
   notes: Official Playwright MCP server exposes browser automation through structured accessibility snapshots and optional browser capabilities.
 
+- name: Agent QA MCP Server
+  organization: Vostride AI
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - local-server
+    - testing
+    - browser-automation
+    - mobile-testing
+    - run-triage
+  protocols:
+    - stdio
+    - streamable-http
+  official_links:
+    - https://vostride.com/docs/agent-qa/mcp
+    - https://github.com/vostride/agent-qa/tree/main/packages/mcp
+  evidence_level: A
+  risk_tags:
+    - local-files
+    - write-actions
+    - browser-automation
+    - credentials
+    - code
+    - third-party-apps
+  last_checked: 2026-09-05
+  notes: First-party MCP server for authoring natural-language application tests, queuing runs, inspecting artifacts, and triaging failures. Full authoring and run tools require the Agent QA dashboard API. Source-available under FSL-1.1-ALv2.
+
 - name: Browserbase MCP Server
   organization: Browserbase
   service_scope: global

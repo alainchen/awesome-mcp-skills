@@ -62,6 +62,7 @@
 | Kimi Playground MCP | Moonshot AI | `mainland-china` | 客户端集成, Playground, CLI | B | [Docs](https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server) |
 | Docker MCP Catalog and Toolkit | Docker | `global` | 可信目录, 容器化 Server, 网关, 客户端集成 | A | [Docs](https://docs.docker.com/ai/mcp-catalog-and-toolkit/) |
 | Playwright MCP | Microsoft / Playwright | `global` | 浏览器自动化, 本地 Server, 测试 | A | [Docs](https://playwright.dev/docs/getting-started-mcp) |
+| Agent QA MCP Server | Vostride AI | `global` | 本地 Server, 测试, 浏览器自动化, mobile testing, run triage | A | [Docs](https://vostride.com/docs/agent-qa/mcp) |
 | Browserbase MCP Server | Browserbase | `global` | 托管 Server, 本地 Server, 浏览器自动化 | A | [Docs](https://docs.browserbase.com/integrations/mcp/introduction) |
 | Supabase MCP | Supabase | `global` | 托管 Server, 数据库, Postgres, 文档 | A | [Docs](https://supabase.com/docs/guides/ai-tools/mcp) |
 | MongoDB MCP Server | MongoDB | `global` | 数据库, 本地 Server, 客户端集成 | A | [Docs](https://www.mongodb.com/docs/mcp-server/) |

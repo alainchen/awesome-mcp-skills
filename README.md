@@ -62,6 +62,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Kimi Playground MCP | Moonshot AI | `mainland-china` | client integration, playground, CLI | B | [Docs](https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server) |
 | Docker MCP Catalog and Toolkit | Docker | `global` | verified catalog, containerized servers, gateway, client integration | A | [Docs](https://docs.docker.com/ai/mcp-catalog-and-toolkit/) |
 | Playwright MCP | Microsoft / Playwright | `global` | browser automation, local server, testing | A | [Docs](https://playwright.dev/docs/getting-started-mcp) |
+| Agent QA MCP Server | Vostride AI | `global` | local server, testing, browser automation, mobile testing, run triage | A | [Docs](https://vostride.com/docs/agent-qa/mcp) |
 | Browserbase MCP Server | Browserbase | `global` | hosted server, local server, browser automation | A | [Docs](https://docs.browserbase.com/integrations/mcp/introduction) |
 | Supabase MCP | Supabase | `global` | hosted server, database, postgres, docs | A | [Docs](https://supabase.com/docs/guides/ai-tools/mcp) |
 | MongoDB MCP Server | MongoDB | `global` | database, local server, client integration | A | [Docs](https://www.mongodb.com/docs/mcp-server/) |
