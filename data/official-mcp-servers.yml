@@ -703,3 +703,23 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: Hyperconsciousness MCP (developer alpha)
+  organization: Louis (louis030195)
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - local-server
+    - knowledge-storage
+  protocols:
+    - stdio
+  official_links:
+    - https://github.com/louis030195/hyperconsciousness
+    - https://github.com/louis030195/hyperconsciousness/blob/main/README.md
+    - https://github.com/louis030195/hyperconsciousness/blob/main/docs/CONSTRAINTS.md
+  evidence_level: B
+  risk_tags:
+    - local-files
+    - write-actions
+  last_checked: 2026-10-03
+  notes: Maintainer-published Rust knowledge store and stdio MCP server with encrypted append-only records and scoped, expiring grants; developer alpha installed from source. Capture requires a write grant; grants do not sandbox OS access, and hosted model providers can see returned plaintext.

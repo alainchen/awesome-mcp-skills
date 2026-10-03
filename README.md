@@ -70,6 +70,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Shopify MCP Servers | Shopify | `global` | commerce, shopping, api development, hosted server, local server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
 | Postman Official MCP Server List | Postman | `global` | official catalog, api development | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | remote server, observability, issue triage, monitoring | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
+| Hyperconsciousness MCP (developer alpha) | Louis (louis030195) | `global` | local server, knowledge storage | B | [Repo](https://github.com/louis030195/hyperconsciousness) |
 
 ## Official Agent Skills And Customization
 
