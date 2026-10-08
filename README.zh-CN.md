@@ -70,6 +70,7 @@
 | Shopify MCP Servers | Shopify | `global` | 商业, 购物, API 开发, 托管 Server, 本地 Server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
 | Postman Official MCP Server List | Postman | `global` | 官方目录, API 开发 | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | 远程 Server, 可观测性, 问题排查, 监控 | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
+| Tale | Tale | `global` | 远程 Server, 工作区数据, 自动化 | A | [Docs](https://docs.tale.dev/develop/mcp-endpoint) |
 
 ## 官方 Agent Skills 与自定义能力
 

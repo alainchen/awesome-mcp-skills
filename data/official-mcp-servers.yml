@@ -703,3 +703,26 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: Tale
+  organization: Tale
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - workspace-data
+    - automation
+  protocols:
+    - http
+  official_links:
+    - https://docs.tale.dev/develop/mcp-endpoint
+    - https://docs.tale.dev/develop/use-tale-from-your-editor
+    - https://github.com/tale-project/tale
+  evidence_level: A
+  risk_tags:
+    - enterprise-data
+    - code
+    - write-actions
+    - third-party-apps
+  last_checked: 2026-10-08
+  notes: First-party, self-hosted MCP endpoint for organization knowledge and versioned automations. Uses deployment-specific HTTPS POST with plain JSON responses, Bearer API key and X-Organization-Slug; no SSE or OAuth flow. Live automation tools may create external effects; mock runs do not validate live credentials.
