@@ -317,3 +317,17 @@
   evidence_level: A
   last_checked: 2026-05-20
   notes: Official WeChat Read Skill connects an AI assistant to a user's reading records, bookshelf, reading stats, notes, highlights, book search, and recommendations through an API key.
+
+- name: GoVisit Agent Skills
+  organization: inHotel
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://govisit.ai/en/docs/developers/agent-skills/overview
+    - https://govisit.ai/en/docs/developers/agent-skills/installation
+    - https://github.com/inhotel-io/govisit-toolkit
+  evidence_level: A
+  last_checked: 2026-11-13
+  notes: GoVisit publishes 22 reusable SKILL.md packages for compatible AI tools; the toolkit repository also contains native plugins and integration resources.

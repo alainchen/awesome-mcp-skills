@@ -703,3 +703,23 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: GoVisit Tools MCP
+  organization: inHotel
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - travel-planning
+    - destination-and-place-research
+  protocols:
+    - streamable-http
+  official_links:
+    - https://govisit.ai/en/docs/developers/mcp/overview
+    - https://govisit.ai/mcp
+  evidence_level: A
+  risk_tags:
+    - public-data
+    - read-only
+  last_checked: 2026-11-13
+  notes: GoVisit's public remote MCP server exposes read tools for published travel destinations and places; it uses Streamable HTTP and requires no GoVisit API key.
