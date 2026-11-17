@@ -70,6 +70,8 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Shopify MCP Servers | Shopify | `global` | commerce, shopping, api development, hosted server, local server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
 | Postman Official MCP Server List | Postman | `global` | official catalog, api development | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | remote server, observability, issue triage, monitoring | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
+| Ask Japan | iHouse Co., Ltd. | `global` | remote server | A | [Repo](https://github.com/ihouse-corp/ask-japan-mcp) |
+| MARU Japan Hands | iHouse Co., Ltd. | `global` | remote server | A | [Repo](https://github.com/ihouse-corp/maru-japan-hands) |
 
 ## Official Agent Skills And Customization
 

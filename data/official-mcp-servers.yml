@@ -703,3 +703,39 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: Ask Japan
+  organization: iHouse Co., Ltd.
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+  protocols:
+    - streamable-http
+  official_links:
+    - https://github.com/ihouse-corp/ask-japan-mcp
+    - https://askjapan.senpinai.com/mcp
+  evidence_level: A
+  risk_tags:
+    - business-data
+    - service-request
+  last_checked: 2026-11-17
+  notes: Japanese business/postcode data and human services. Human services are paid; hosted implementation is not published.
+
+- name: MARU Japan Hands
+  organization: iHouse Co., Ltd.
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+  protocols:
+    - streamable-http
+  official_links:
+    - https://github.com/ihouse-corp/maru-japan-hands
+    - https://maru.senpinai.com/mcp
+  evidence_level: A
+  risk_tags:
+    - payment
+    - service-request
+  last_checked: 2026-11-17
+  notes: Human services in Japan; wallet payment requests require owner confirmation. Human services are paid; hosted implementation is not published.
