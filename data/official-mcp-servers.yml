@@ -703,3 +703,23 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: CloudGPU MCP
+  organization: CloudGPU
+  service_scope: international
+  category: official-mcp-server
+  role:
+    - remote-server
+    - local-server
+  protocols:
+    - streamable-http
+    - stdio
+  official_links:
+    - https://cloudgpu.app/docs/mcp
+    - https://github.com/cloudgpu-app/cloudgpu-mcp
+  evidence_level: A
+  risk_tags:
+    - cloud-infrastructure
+    - cost
+  last_checked: 2026-11-18
+  notes: Quotes GPU compute, runs jobs on rented instances, retrieves results, and releases instances. Provisioning can incur charges.
