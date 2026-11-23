@@ -703,3 +703,21 @@
     - enterprise-data
   last_checked: 2026-05-20
   notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.
+
+- name: Datacircle MCP Server
+  organization: Datacircle
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - data
+  protocols:
+    - streamable-http
+  official_links:
+    - https://datacircle.dev/docs/mcp
+    - https://datacircle.dev
+  evidence_level: A
+  risk_tags:
+    - docs-readonly
+  last_checked: 2026-11-23
+  notes: Open remote server at https://api.datacircle.dev/mcp, no key. Find the best GTM APIs.
